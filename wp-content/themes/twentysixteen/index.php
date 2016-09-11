@@ -24,31 +24,30 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 </head>
 <body>
+		<header>
+			<h1>
+				<img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" />
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="">strona1</a></li>
+					<li><a href="">strona2</a></li>
+					<li><a href="">strona3</a></li>
+					<li><a href="">strona4</a></li>
+					<li><a href="">strona5</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<section id="sek1" class="sek1">
-			<header>
-				<h1>
-					<img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" />
-				</h1>
-				<nav>
-					<ul>
-						<li><a href="">strona1</a></li>
-						<li><a href="">strona2</a></li>
-						<li><a href="">strona3</a></li>
-						<li><a href="">strona4</a></li>
-						<li><a href="">strona5</a></li>
-					</ul>
-				</nav>
-			</header>
 			<div>
 				<h2>Nagłówek h2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/> 
-				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br/> 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br/> 
-				esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt<br/> 
-				in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/>
+				labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 			</div>
+			<video src="wp-content/themes/twentysixteen/images/office.mp4" autoplay loop></video>
 		</section>
+
 		<section id="sek2"></section>
 		<section id="sek3"></section>
 		<section id="sek4"></section>
@@ -61,7 +60,7 @@
 					<li><a href="#sek3">Section 3</a></li>
 					<li><a href="#sek4">Section 4</a></li>
 					<li><a href="#sek5">Section 5</a></li>
-				</ul>	
+				</ul>
 			</nav>
 		</div>
 

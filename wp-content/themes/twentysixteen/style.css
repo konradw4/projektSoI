@@ -1,6 +1,7 @@
-html, body, section { 
+html, body, section {
 	height: 100%;
 	margin: 0;
+	padding: 0;
 }
 
 section {
@@ -9,11 +10,11 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	z-index: 1;
 }
 
 #sek1 {
-	background-image: url(images/1.jpg);
-
+	/*background-image: url(images/rynek.jpg);*/
 }
 
 #sek2 {
@@ -49,7 +50,7 @@ section {
 	position: relative;
 	color: transparent;
 	height: 50px;
-	
+
 }
 
 .navPoints > nav ul {
@@ -69,34 +70,51 @@ section {
 	background: rgba(255,255,255,0.6);
 }
 
-.sek1 > header {
-	background-color: #6495ED;
+header {
+	background-color: transparent;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
 }
 
-.sek1 > header h1 {
+header h1 {
 	float: left;
+	position: relative;
+	margin-left: 20px;
 }
-.sek1 > header nav ul {
+header nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 15px 10px 0 5px;
     padding: 0;
-    overflow: hidden;
 }
-.sek1 > header nav ul li {
+header nav li {
     float: right;
+		margin-right: 30px;
 }
-.sek1 > header nav ul li a {
+header nav a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .sek1 > div {
+	width: 100%;
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+	top: 36%;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.sek1 > div h2{
+	font-size: 40px;
 }
 
-
+.sek1 > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
