@@ -18,7 +18,7 @@ section {
 }
 
 #sek2 {
-	background-image: url(images/2.jpg);
+	background-image: url(images/biuro.jpg);
 }
 
 #sek3 {
@@ -63,7 +63,7 @@ section {
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
-	border: 4px solid #fff;
+	border: 4px solid #808080;
 }
 
 .navPoints > nav a:hover:after {
@@ -98,15 +98,17 @@ header nav a {
     padding: 14px 16px;
     text-decoration: none;
 }
-.sek1 > div {
-	width: 100%;
+
+.main {
+	width: 88%;
 	position: absolute;
-	top: 36%;
-	color: white;
+	color: #8B0000;
 	text-align: center;
 	text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+
 .sek1 > div h2{
+	margin-top: 220px;
 	font-size: 40px;
 }
 
@@ -117,4 +119,61 @@ header nav a {
 	min-width: 100%;
 	min-height: 100%;
 	z-index: -1;
+}
+
+.sek2 h2 {
+	font-size: 50px;
+	margin-top: 80px;
+}
+
+.sek2 article {
+	padding: 0 15px 0 15px;
+	text-align: left;
+}
+.sek2 button {
+	float: right;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 12px;
+	box-shadow: 3px 0 15px rgba(0, 0, 0, .8);
+	transition: 0.6s;
+}
+
+.sek2 button:hover {
+    background-color: #8B0000;
+    color: #FFF;
+		cursor: pointer;
+}
+
+.sek2 figure {
+	position: relative;
+	border-radius: 50%;
+	box-shadow: 3px 0 15px rgba(0, 0, 0, .8);
+}
+
+.sek2 img {
+	object-fit: cover;
+}
+
+.contentdiv {
+	float: left;
+	width: 30%;
+	margin: 1%;
+}
+
+#arrow-down {
+	z-index: 10;
+	position: absolute;
+	top: 95%;
+	left: 45%;
+	height: 60px;
+	width: 60px;
+}
+
+#arrow-down img {
+	height: 100%;
+	width: 100%;
 }

@@ -26,7 +26,7 @@
 <body>
 		<header>
 			<h1>
-				<img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" />
+				<a href="#sek1"><img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" /></a>
 			</h1>
 			<nav>
 				<ul>
@@ -40,7 +40,7 @@
 		</header>
 
 		<section id="sek1" class="sek1">
-			<div>
+			<div class="main">
 				<h2>Nagłówek h2</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/>
 				labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -48,10 +48,53 @@
 			<video src="wp-content/themes/twentysixteen/images/office.mp4" autoplay loop></video>
 		</section>
 
-		<section id="sek2"></section>
+		<span id="arrow-down">
+			<a href="#sek2"><img src="wp-content/themes/twentysixteen/images/Arrow-Down-icon.png" alt="arrow" /></a>
+		</span>
+
+		<section id="sek2" class="sek2">
+			<div class="main">
+				<h2>Firma</h2>
+				<div class="contentdiv">
+					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+					<h3>Nagłówek h3</h3>
+					<article>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+						velit esse cillum dolore eu fugiat nulla pariatur.
+					</article>
+					<button type="button" name="button">Przycisk</button>
+				</div>
+				<div class="contentdiv">
+					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+					<h3>Nagłówek h3</h3>
+					<article>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+						velit esse cillum dolore eu fugiat nulla pariatur.
+					</article>
+					<button type="button" name="button">Przycisk</button>
+				</div>
+				<div class="contentdiv">
+					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+					<h3>Nagłówek h3</h3>
+					<article>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+						velit esse cillum dolore eu fugiat nulla pariatur.
+					</article>
+					<button type="button" name="button">Przycisk</button>
+				</div>
+			</div>
+		</section>
+
 		<section id="sek3"></section>
 		<section id="sek4"></section>
 		<section id="sek5"></section>
+
 		<div class="navPoints">
 			<nav>
 				<ul>
@@ -63,7 +106,6 @@
 				</ul>
 			</nav>
 		</div>
-
 
 </body>
 </html>
