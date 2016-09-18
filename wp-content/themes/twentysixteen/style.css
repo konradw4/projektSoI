@@ -18,20 +18,19 @@ section {
 }
 
 #sek2 {
-	background-image: url(images/biuro.jpg);
+	/*background-image: url(images/biuro.jpg);*/
+	background-color: #232323;
 }
 
 #sek3 {
-	background-image: url(images/3.jpg);
+	background-image: url(images/biuro.jpg);
 }
 
 #sek4 {
-	background-image: url(images/4.jpg);
+	/*background-image: url(images/4.jpg);*/
+	background-color: #232323;
 }
 
-#sek5 {
-	background-image: url(images/5.jpg);
-}
 
 
 .navPoints > nav {
@@ -102,14 +101,38 @@ header nav a {
 .main {
 	width: 88%;
 	position: absolute;
-	color: #8B0000;
+	color: #FFF;
 	text-align: center;
-	text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	/*text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);*/
 }
 
-.sek1 > div h2{
+.main1 {
+	height: 100%;
+	padding: 0 20% 0 20%;
+}
+
+.main1 ol{
+	margin-bottom: 150px;
+}
+
+/*.sek1 > div h2{
 	margin-top: 220px;
 	font-size: 40px;
+}*/
+
+.sek1 .item h2{
+	margin-top: 220px;
+	font-size: 100px;
+	font-weight: 900;
+	color: #FFF;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+}
+.sek1 .item p {
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .sek1 > video {
@@ -132,20 +155,6 @@ header nav a {
 }
 .sek2 button {
 	float: right;
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	font-size: 16px;
-	border-radius: 12px;
-	box-shadow: 3px 0 15px rgba(0, 0, 0, .8);
-	transition: 0.6s;
-}
-
-.sek2 button:hover {
-    background-color: #8B0000;
-    color: #FFF;
-		cursor: pointer;
 }
 
 .sek2 figure {
@@ -158,22 +167,73 @@ header nav a {
 	object-fit: cover;
 }
 
-.contentdiv {
+/*.contentdiv {
 	float: left;
 	width: 30%;
 	margin: 1%;
-}
+}*/
 
-#arrow-down {
+.arrow-down {
 	z-index: 10;
 	position: absolute;
 	top: 95%;
 	left: 45%;
-	height: 60px;
-	width: 60px;
+
 }
 
-#arrow-down img {
+.arrow-down-btn{
+		border-radius: 50%;
+		background-color: black;
+		height: 60px;
+		width: 60px;
+}
+
+.sek3 h2 {
+	text-align: center;
+	margin-top: 5%;
+	font-size: 50px;
+}
+.sek3 h3 {
+	text-align: center;
+}
+
+.rn {
+	margin-bottom: 40px;
+}
+.sek3 article {
+	text-align: center;
+}
+
+.productImg img {
+	object-fit: cover;
 	height: 100%;
+}
+
+.productImg {
+	height: 150px;
+	width: 200px;
+	background-color: pink;
+	float: left;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#map {
+	width: 800px;
+	height: 400px;
+	margin-top: 70px;
+	margin-left: 15%;
+}
+#test {
 	width: 100%;
+	height: 400px;
+	background-color: black;
+	margin: 0;
+}
+.sek4 h2 {
+	color: #FFF;
+	font-size: 50px;
+	margin-top: 30px;
+	text-align: center;
 }

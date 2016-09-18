@@ -22,78 +22,185 @@
 	<title>Strona projekt1</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	<link rel="stylesheet" href="wp-content\themes\twentysixteen\bower_components\bootstrap\dist\css\bootstrap.min.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=TUTAJ_API_KEY&callback=initMap"
+    async defer></script>
 </head>
 <body>
 		<header>
-			<h1>
-				<a href="#sek1"><img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" /></a>
-			</h1>
-			<nav>
-				<ul>
-					<li><a href="">strona1</a></li>
-					<li><a href="">strona2</a></li>
-					<li><a href="">strona3</a></li>
-					<li><a href="">strona4</a></li>
-					<li><a href="">strona5</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+				<h1>
+					<a href="#sek1"><img src="wp-content/themes/twentysixteen/images/logo.png" alt="Sointeractive" /></a>
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="">strona1</a></li>
+						<li><a href="">strona2</a></li>
+						<li><a href="">strona3</a></li>
+						<li><a href="">strona4</a></li>
+						<li><a href="">strona5</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<section id="sek1" class="sek1">
-			<div class="main">
-				<h2>Nagłówek h2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/>
-				labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<div id="myCarousel" class="carousel slide main1" data-ride="carousel">
+
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ol>
+
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+						<h2>Kasztelan</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			    </div>
+
+			    <div class="item">
+						<h2>Warka</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/>
+						labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			    </div>
+
+			    <div class="item">
+						<h2>Muszynianka</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/>
+						labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			    </div>
+			  </div>
 			</div>
 			<video src="wp-content/themes/twentysixteen/images/office.mp4" autoplay loop></video>
+			<!-- <a href="#sek2" class="arrow-down">
+				<div class="arrow-down-btn">
+
+				</div>
+			</a> -->
 		</section>
 
-		<span id="arrow-down">
-			<a href="#sek2"><img src="wp-content/themes/twentysixteen/images/Arrow-Down-icon.png" alt="arrow" /></a>
-		</span>
-
 		<section id="sek2" class="sek2">
-			<div class="main">
-				<h2>Firma</h2>
-				<div class="contentdiv">
-					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
-					<h3>Nagłówek h3</h3>
-					<article>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur.
-					</article>
-					<button type="button" name="button">Przycisk</button>
+			<div class="main container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-8">
+						<h2>Firma</h2>
+					</div>
 				</div>
-				<div class="contentdiv">
-					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
-					<h3>Nagłówek h3</h3>
-					<article>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur.
-					</article>
-					<button type="button" name="button">Przycisk</button>
-				</div>
-				<div class="contentdiv">
-					<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
-					<h3>Nagłówek h3</h3>
-					<article>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur.
-					</article>
-					<button type="button" name="button">Przycisk</button>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-8">
+						<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+						<h3>Nagłówek h3</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+							velit esse cillum dolore eu fugiat nulla pariatur.
+						</article>
+						<button type="button" class="btn btn-success">Przycisk</button>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-8">
+						<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+						<h3>Nagłówek h3</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+							velit esse cillum dolore eu fugiat nulla pariatur.
+						</article>
+						<button type="button" class="btn btn-success">Przycisk</button>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-8">
+						<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+						<h3>Nagłówek h3</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+							velit esse cillum dolore eu fugiat nulla pariatur.
+						</article>
+						<button type="button" class="btn btn-success">Przycisk</button>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="sek3"></section>
-		<section id="sek4"></section>
-		<section id="sek5"></section>
+		<section id="sek3" class="sek3">
+			<div class="container">
+
+				<div class="row rn">
+					<div class="col-md-11 col-sm-10 col-xs-8">
+						<h2>Oferta</h2>
+					</div>
+				</div>
+
+				<div class="row rn">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="productImg">
+							<img src="wp-content/themes/twentysixteen/images/ide.jpg" />
+						</div>
+						<h3>Produkt 1</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.
+						</article>
+					</div>
+					<div class="col-md-4 col-md-offset-1">
+						<div class="productImg">
+							<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+						</div>
+						<h3>Produkt 2</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.
+						</article>
+					</div>
+				</div>
+
+				<div class="row rn">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="productImg">
+							<img src="wp-content/themes/twentysixteen/images/obrazek.jpg" />
+						</div>
+						<h3>Produkt 3</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.
+						</article>
+					</div>
+					<div class="col-md-4 col-md-offset-1">
+						<div class="productImg">
+							<img src="wp-content/themes/twentysixteen/images/camera.jpg" />
+						</div>
+						<h3>Produkt 4</h3>
+						<article>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.
+						</article>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="sek4" class="sek4">
+			<div class="container">
+				<div  class="row">
+						<h2>Lokalizacja</h2>
+						<div id="map"></div>
+				</div>
+
+				<!-- <div class="row">
+						<div id="map"></div>
+						<div  class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+							<div id="test">
+
+							</div>
+						</div>
+				</div> -->
+			</div>
+		</section>
 
 		<div class="navPoints">
 			<nav>
@@ -102,10 +209,14 @@
 					<li><a href="#sek2">Section 2</a></li>
 					<li><a href="#sek3">Section 3</a></li>
 					<li><a href="#sek4">Section 4</a></li>
-					<li><a href="#sek5">Section 5</a></li>
 				</ul>
 			</nav>
 		</div>
 
+
+
+		<script type="text/javascript" src="wp-content\themes\twentysixteen\bower_components\jquery\dist\jquery.min.js"></script>
+		<script type="text/javascript" src="wp-content\themes\twentysixteen\bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+		<script type="text/javascript" src="wp-content\themes\twentysixteen\js\main.js"></script>
 </body>
 </html>
