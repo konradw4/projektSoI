@@ -1,7 +1,12 @@
 html, body, section {
-	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+@media all and (min-width: 900px){
+	section {
+		height: 100vh;
+	}
 }
 
 section {
@@ -13,13 +18,18 @@ section {
 	z-index: 1;
 }
 
+
+
 #sek1 {
 	/*background-image: url(images/rynek.jpg);*/
+	height: 100vh;
 }
 
 #sek2 {
 	/*background-image: url(images/biuro.jpg);*/
 	background-color: #232323;
+	color: #FFF;
+	text-align: center;
 }
 
 #sek3 {
@@ -28,7 +38,7 @@ section {
 
 #sek4 {
 	/*background-image: url(images/4.jpg);*/
-	background-color: #232323;
+	height: 100vh;
 }
 
 
@@ -69,6 +79,78 @@ section {
 	background: rgba(255,255,255,0.6);
 }
 
+@media all and (max-width: 991px){
+	.menu {
+		display: none;
+	}
+	.ham_icon {
+		float: left;
+		left: 0;
+		height: 100%;
+		width: 80px;
+		position: absolute;
+		z-index: 5;
+	}
+	.ham_icon i {
+		position: absolute;
+		left: 25%;
+		margin-top: 30%;
+	}
+	h1{
+		left: 10%;
+	}
+}
+@media all and (min-width: 991px){
+	.ham{
+		display: none;
+	}
+}
+
+.ham_menu{
+	display: none;
+}
+
+.ham_menu div {
+	padding: 0;
+}
+
+.ham_menu ul {
+			border-radius: 5px;
+	    list-style-type: none;
+			padding: 0;
+}
+.ham_menu ul li{
+	padding: 10px;
+	background: #c0bebf;
+	text-align: center;
+}
+.ham_menu ul li:hover{
+	padding: 10px;
+	background: #666666;
+	color: #FFF;
+}
+.ham_menu ul a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	text-decoration: none;
+	z-index: 10;
+	/*color: #666666;*/
+}
+
+.ham_menu ul li a:hover {
+	/*color: #FFF;*/
+}
+
+header {
+	background-color: transparent;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+.notTransp{
+		background-color: #008080;
+}
+
 header {
 	background-color: transparent;
 	position: fixed;
@@ -98,12 +180,9 @@ header nav a {
     text-decoration: none;
 }
 
-.main {
-	width: 88%;
-	position: absolute;
-	color: #FFF;
-	text-align: center;
-	/*text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);*/
+header nav a:hover {
+		  text-decoration: none;
+			color: #FFF;
 }
 
 .main1 {
@@ -167,6 +246,10 @@ header nav a {
 	object-fit: cover;
 }
 
+.firma_element{
+	padding-bottom: 40px;
+}
+
 /*.contentdiv {
 	float: left;
 	width: 30%;
@@ -220,20 +303,28 @@ header nav a {
 }
 
 #map {
-	width: 800px;
-	height: 400px;
-	margin-top: 70px;
-	margin-left: 15%;
-}
-#test {
 	width: 100%;
-	height: 400px;
-	background-color: black;
-	margin: 0;
+	height: 100%;
 }
+.info_box{
+		position: absolute;
+		height: 200px;
+		min-width: 180px;
+		border-radius: 15%;
+		background-color: rgba(255, 100, 50, 0.5);;
+		z-index: 999;
+		top: 230px;
+		left: 60%;
+		text-align: center;
+}
+
 .sek4 h2 {
 	color: #FFF;
 	font-size: 50px;
 	margin-top: 30px;
 	text-align: center;
+}
+
+.hide {
+	display: none;
 }
