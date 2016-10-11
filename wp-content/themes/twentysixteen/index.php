@@ -217,6 +217,28 @@
 						</div>
 		</section>
 
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+						<h4>Kontakt:</h4>
+						<p>
+							tel.: +48 12 687 77 09<br />
+							fax: +48 12 687 79 99
+						</p>
+					</div>
+					<div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+						<h4>Firmy Współpracujące:</h4>
+						<p>
+							Motorola<br />
+							Biedronka<br />
+							Comarch
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 		<div class="navPoints menu">
 			<nav>
 				<ul>
